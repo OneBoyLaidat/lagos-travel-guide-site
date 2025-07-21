@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    color: #3a3a3a;
+    background: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+#hero-section{
+    display: flex;
+    background-image: url("images/Marina-at-Dusk.jpg");
+    background-size: cover;
+    height: 300px;
+    color: #ffffff;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-text{
+    margin: 10px auto;
+    background: #057aa8;
+    padding: 5px;
+    text-shadow: 0 0 2px #3a3a3a;
+    border-radius: 5px;
+}
+
+#hero-subtext{
+    background: #06425a;
+    max-width: 250px;
+}
+
+#content-body{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 30px none;
+}
+
+.activity{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.activity-img{
+    border-radius: 50%;
+    border:3px thick#d6d6d6;
+    height: 150px;
+    width:150px;
+    display: block;
+    margin: 5px auto;
+}
+
+#guide-section{
+    display: flex;
+    background: #058ec4;
+    width: 400px;
+    height: 200px;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 10px;
+    margin: 50px auto;
+    color: #d6d6d6;
+    border-radius: 5px;
+    border-bottom: 5px solid #1c069b;
+}
+
+#guide-img{
+    width:150px;
+    border-radius: 2px;
+}
+
+#guide-text{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-decoration: italic;
+    text-shadow:  #3a3a3a 0 0 5px;
+}

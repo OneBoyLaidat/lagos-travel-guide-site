@@ -57,8 +57,7 @@ body{
     background: #058ec4;
     width: 400px;
     height: 200px;
-    justify-content: space-between;
-    justify-items: center;
+    justify-content: center;
     padding: 10px;
     margin: 50px auto;
     color: #d6d6d6;
@@ -72,9 +71,11 @@ body{
 }
 
 #guide-text{
+    margin: 0px 20px;
     display: flex;
     flex-direction: column;
     width: 200px;
-    text-decoration: italic;
+    justify-content: center;
+    text-justify: left;
     text-shadow:  #3a3a3a 0 0 5px;
 }
